@@ -9,6 +9,13 @@ export const Container = styled.div`
     flex-direction: column;
     padding: 1rem;
     border-radius: 0.5rem;
+
+    @media only screen and (max-width: 768px) {
+        display: grid;
+        grid-template-columns: 1fr;
+        height: fit-content;
+        width: fit-content;
+    }
 `;
 
 export const Grid = styled.div`

@@ -10,4 +10,15 @@ export const GlobalStyle = createGlobalStyle`
         background-color: ${colors.backgroundColor};
         font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
     }
+
+    @media only screen and (max-width: 768px) {
+        body{
+            font-size: 14px;
+            display: flex;
+            height: fit-content;
+        }
+
+        
+    }
+
 `;

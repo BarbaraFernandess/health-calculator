@@ -13,6 +13,13 @@ export const NavBarContainer = styled.nav`
     height: ${NAV_HEIGHT};
     transition: 2s;
     background-color: ${colors.mainColor};
+
+    @media only screen and (max-width: 821px) {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-left: 1rem;
+}
 `;
 
 export const NavBarContent = styled.span`

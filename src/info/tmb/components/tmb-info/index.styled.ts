@@ -6,6 +6,14 @@ export const Container = styled.div`
     flex-direction: column;
     gap: 1rem;
     width: 35%;
+
+    @media only screen and (max-width: 768px) {
+        display: grid;
+        grid-template-columns: 1fr;
+        height: fit-content;
+        width: fit-content;
+        padding: 1rem;
+    }
 `;
 
 const Text = styled.span`

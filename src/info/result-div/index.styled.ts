@@ -6,4 +6,5 @@ export const DivElement = styled.div`
     border-radius: 30px;
     color: white;
     padding: 1rem 2rem;
+    text-align: center;
 `;
